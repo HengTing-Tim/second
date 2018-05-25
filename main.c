@@ -4,9 +4,9 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-void bubbleSort( const int * array,unsigned int size ); //prototype
+void bubbleSort(const int * const array,unsigned int size ); //prototype
 
-int main(void) { 
+int main(void) {   
 	//initialize array a
 	int a[SIZE]={45,7,9,65,377,836,48,59,22,349};
 	
@@ -24,7 +24,7 @@ int main(void) {
 		//loop through array a
 		for(i=0;i<SIZE;++i){
 			printf("%4d ",a[i]);
-	    }//end for
+	    }//end for 
 		
 		puts("");
 }//end main

@@ -1,5 +1,5 @@
 [Project]
-FileName=Project2.dev
+FileName=project4
 Name=Project1
 Type=1
 Ver=2
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main.c
+FileName=..\main.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=Untitled2.c
+FileName=..\Untitled2.c
 CompileCpp=0
 Folder=
 Compile=1
